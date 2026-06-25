@@ -64,8 +64,8 @@ enableEmoji = true
 # -- 多语言配置(2026-06-25 补全,启用 zh-cn + en,en 内容为空仅触发语言切换 UI)--
 [languages]
   [languages.zh-cn]
-    languageName = "简体中文"
+    label = "简体中文"
     weight = 1
   [languages.en]
-    languageName = "English"
+    label = "English"
     weight = 2
