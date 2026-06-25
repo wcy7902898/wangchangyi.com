@@ -8,7 +8,7 @@ layout: "single"
 ## 我是谁
 
 <div class="flex flex-col md:flex-row gap-6 items-start">
-  <img src="/img/IMG_2450.JPG" alt="Wang Changyi" class="w-32 h-32 rounded-full object-cover shrink-0">
+  <img src="/img/IMG_2450.JPG" alt="Wang Changyi" class="w-20 h-20 rounded-full object-cover shrink-0">
   <div>
 哈尔滨人，12 岁初二娃的父亲。技术人 + 自学探索者，关注个人 IP 建设、家庭实验室、智能家居、AI 数字人。
   </div>
