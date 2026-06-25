@@ -37,6 +37,6 @@
   weight = 10
 
 [[footer]]
-  name = "分类"
-  pageRef = "categories"
+  name = "文章"
+  pageRef = "posts"
   weight = 20
