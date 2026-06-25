@@ -1,12 +1,10 @@
 ---
-title: "Tags"
+title: "标签"
 description: "所有标签 · 按主题分组"
 date: 2026-06-25
 cardView: true
 groupByYear: false
 ---
-
-# Tags
 
 **所有文章标签 · 按主题分组**
 
