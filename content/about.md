@@ -5,10 +5,6 @@ date: 2026-06-25
 layout: "single"
 ---
 
-# About wangchangyi.com
-
-**Wang Changyi** · 个人主页
-
 ## 我是谁
 
 哈尔滨人，12 岁初二娃的父亲。技术人 + 自学探索者，关注个人 IP 建设、家庭实验室、智能家居、AI 数字人。
