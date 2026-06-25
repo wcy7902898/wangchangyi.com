@@ -17,6 +17,7 @@ disableImageOptimization = false
 disableImageOptimizationMD = false
 disableTextInHeader = true
 logo = "img/logo.png"
+copyright = "© 2026 Wang Changyi"
 
 # -- 首页布局 --
 [homepage]
@@ -52,6 +53,10 @@ logo = "img/logo.png"
   showReadingTime = true
   showDate = true
   showAuthor = true
+
+# -- 作者信息 --
+[params.author]
+  name = "Wang Changyi"
 
 # -- 页头 --
 [header]

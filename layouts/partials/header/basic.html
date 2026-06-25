@@ -4,7 +4,7 @@
     {{ if $logo }}
       <div>
         <a href="{{ "" | relLangURL }}" class="flex">
-          <span class="sr-only">{{ .Site.Title | markdownify }}</span>
+          <span class="sr-only">WCY / 返回首页</span>
           {{ if eq $logo.MediaType.SubType "svg" }}
             <span class="logo object-scale-down object-left nozoom">
               {{ $logo.Content | safeHTML }}
