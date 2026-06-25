@@ -17,5 +17,10 @@
   # 浏览器特性权限(精简)
   Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
 
-  # 内容安全策略(Content Security Policy,严格 + self)
-  Content-Security-Policy: default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  # 内容安全策略(Content Security Policy)
+  # script-src: self + unsafe-inline(Blowfish 内联脚本) + giscus.app(Giscus 评论)
+  # style-src: self + unsafe-inline(Blowfish 内联样式)
+  # img-src: self + https(Giscus 头像) + data(内联图片)
+  # connect-src: self + api.github.com(Giscus API)
+  # frame-src: giscus.app(Giscus iframe)
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https://giscus.app https://*.giscus.app; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self' https://api.github.com; frame-ancestors 'none'; frame-src https://giscus.app; base-uri 'self'; form-action 'self'
