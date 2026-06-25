@@ -12,9 +12,42 @@ date: 2026-06-25
 
 ## 探索方向
 
-[![数字人辅导老师](/img/cover-tutor.jpg)](/tags/digital-tutor/)
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
+  <div class="border border-neutral-200 dark:border-neutral-700 rounded-lg overflow-hidden">
+    <a href="/tags/digital-tutor/">
+      <img src="/img/cover-tutor.jpg" alt="数字人辅导老师" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-lg font-bold mb-2">数字人辅导老师</h3>
+        <p class="text-sm text-neutral-600 dark:text-neutral-400">隐私优先 · 教学 Agent · 自家娃用</p>
+      </div>
+    </a>
+  </div>
+  <div class="border border-neutral-200 dark:border-neutral-700 rounded-lg overflow-hidden">
+    <a href="/tags/vblog/">
+      <img src="/img/cover-vblog.jpg" alt="vblog" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-lg font-bold mb-2">vblog</h3>
+        <p class="text-sm text-neutral-600 dark:text-neutral-400">视频日志 · 思路沉淀 · 公开思考</p>
+      </div>
+    </a>
+  </div>
+  <div class="border border-neutral-200 dark:border-neutral-700 rounded-lg overflow-hidden">
+    <a href="/tags/homelab/">
+      <img src="/img/cover-homelab.jpg" alt="homelab" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-lg font-bold mb-2">homelab</h3>
+        <p class="text-sm text-neutral-600 dark:text-neutral-400">家庭实验室 · 智能家居 · LLM server</p>
+      </div>
+    </a>
+  </div>
+</div>
 
-[![vblog](/img/cover-vblog.jpg)](/tags/vblog/)
+## 最近文章
 
-[![homelab](/img/cover-homelab.jpg)](/tags/homelab/)
-
+- [富在术数，不在劳身](/posts/01.富在术数,不在劳身/)
+- [人们其实并不清楚想要什么](/posts/02.不知道要什么/)
+- [富有的习惯](/posts/03.富有的习惯/)
+- [早起的奇迹](/posts/04.早起的奇迹/)
+- [讨论会降低效率](/posts/05.讨论会降低效率/)
+- [不要被打乱节奏](/posts/06.不要被打乱节奏/)
+- [Hello World](/posts/hello-world/)
