@@ -39,7 +39,7 @@ disableTextInHeader = false
   relatedContentLimit = 3
   showTaxonomies = true
   showWordCount = false
-  showComments = false
+  showComments = true
 
 # -- 列表页 --
 [list]
@@ -79,3 +79,18 @@ disableTextInHeader = false
   linkedin = true
   twitter = true
   reddit = true
+
+# -- Giscus 评论系统(基于 GitHub Discussions,反过度设计:3 行 yaml + 0 自建)--
+[params.giscus]
+  repo = "wcy7902898/comments"
+  repoId = "R_kgDOTEnQ2g"
+  category = "General"
+  categoryId = "DIC_kwDOTEnQ2s4C_2Om"
+  mapping = "pathname"
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  theme = "noborder_light"
+  lang = "zh-CN"
+  loading = "lazy"
