@@ -1,0 +1,21 @@
+# Cloudflare Pages security headers (2026-06-25 一辉配)
+# 部署到 wangchangyi.com 后 CF Pages edge 自动应用
+
+/*
+  # HTTP 严格传输安全(HSTS,1 年) - 强制 HTTPS,防止降级攻击
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+  # 防止 MIME 类型嗅探攻击
+  X-Content-Type-Options: nosniff
+
+  # 点击劫持保护
+  X-Frame-Options: DENY
+
+  # Referrer 控制 - 只发同源 referrer
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # 浏览器特性权限(精简)
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+
+  # 内容安全策略(Content Security Policy,严格 + self)
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
