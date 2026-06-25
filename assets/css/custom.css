@@ -7,3 +7,13 @@ article img, .article-link img, .article-link--simple img {
 body.bf-scrollbar {
   scrollbar-gutter: stable;
 }
+
+/* Giscus 评论区撑宽(2026-06-25): 突破 max-w-prose 约束 */
+.giscus-wrapper {
+  max-width: 100% !important;
+  width: 100%;
+}
+.article-content .giscus-wrapper {
+  max-width: 100% !important;
+  width: 100%;
+}
