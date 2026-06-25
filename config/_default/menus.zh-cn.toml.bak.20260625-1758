@@ -1,24 +1,19 @@
 # -- 主菜单 --
 
 [[main]]
-  name = "首页"
-  pageRef = "/"
+  name = "博客"
+  pageRef = "posts"
   weight = 10
 
 [[main]]
-  name = "文章"
-  pageRef = "posts"
+  name = "作品"
+  pageRef = "portfolio"
   weight = 20
-
-[[main]]
-  name = "标签"
-  pageRef = "tags"
-  weight = 30
 
 [[main]]
   name = "关于"
   pageRef = "about"
-  weight = 40
+  weight = 30
 
 
 # -- 搜索 --
@@ -28,7 +23,6 @@
   [main.params]
     action = "search"
     icon = "search"
-
 
 # -- 页脚菜单 --
 [[footer]]
