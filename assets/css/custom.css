@@ -1,0 +1,9 @@
+/* 全局反抖动(2026-06-25): 图片预占位防 layout shift */
+article img, .article-link img, .article-link--simple img {
+  aspect-ratio: auto;
+}
+
+/* /tags/ 页入口稳定:禁止默认动画过渡 */
+body.bf-scrollbar {
+  scrollbar-gutter: stable;
+}

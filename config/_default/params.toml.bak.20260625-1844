@@ -109,10 +109,3 @@ disableTextInHeader = false
   image3 = "img/cover-homelab.jpg"
   alt3 = "homelab"
 
-
-# -- /tags/ 页配置(2026-06-25 反抖动 + 美化)--
-[params.term]
-  showTermCount = true
-  cardView = true
-  groupByYear = false
-  showHero = false
