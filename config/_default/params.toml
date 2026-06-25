@@ -1,0 +1,81 @@
+# -- Blowfish 主题配置 --
+
+colorScheme = "ocean"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+enableA11y = false
+enableSearch = true
+enableCodeCopy = true
+enableStructuredBreadcrumbs = true
+
+replyByEmail = false
+
+mainSections = ["posts"]
+
+disableImageOptimization = false
+disableImageOptimizationMD = false
+disableTextInHeader = false
+
+# -- 首页布局 --
+[homepage]
+  layout = "profile"
+  showRecent = true
+  showRecentItems = 6
+  showReadingTime = true
+  showDate = true
+  showAuthor = true
+
+# -- 文章页 --
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = true
+  showBreadcrumbs = true
+  showPagination = true
+  showReadingTime = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 3
+  showTaxonomies = true
+  showWordCount = false
+  showComments = false
+
+# -- 列表页 --
+[list]
+  showBreadcrumbs = true
+  showSummary = true
+  showTableOfContents = false
+  showCards = true
+  groupByYear = true
+  showReadingTime = true
+  showDate = true
+  showAuthor = true
+
+# -- 页头 --
+[header]
+  layout = "basic"
+  showLogo = false
+  showTitle = true
+
+# -- 页脚 --
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = false
+
+# -- 侧栏 --
+[sidebar]
+  showRecent = true
+  showRecentItems = 5
+  showRelated = false
+
+# -- 卡片视图 --
+[cardView]
+  columns = 3
+
+# -- 社交分享 --
+[share]
+  linkedin = true
+  twitter = true
+  reddit = true

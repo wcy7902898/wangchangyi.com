@@ -1,0 +1,24 @@
+disabled = false
+locale = "zh-CN"
+label = "中文"
+weight = 1
+title = "wangchangyi.com"
+
+[params]
+  displayName = "中"
+  isoCode = "zh-CN"
+  rtl = false
+  dateFormat = "2006年1月2日"
+  description = "Wang Changyi 的个人网站 - 博客、作品与个人介绍"
+  copyright = "© 2026 wangchangyi.com"
+
+[params.author]
+  name = "Wang Changyi"
+  email = "wangchangyi@me.com"
+  imageQuality = 96
+  headline = "做点有意思的事"
+  bio = "写代码、写文章、记录想法"
+  links = [
+    { email = "mailto:wangchangyi@me.com" },
+    { github = "https://github.com/wcy7902898" },
+  ]

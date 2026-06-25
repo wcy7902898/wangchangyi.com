@@ -1,0 +1,36 @@
+# -- 主菜单 --
+
+[[main]]
+  name = "博客"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "作品"
+  pageRef = "portfolio"
+  weight = 20
+
+[[main]]
+  name = "关于"
+  pageRef = "about"
+  weight = 30
+
+
+# -- 搜索 --
+[[main]]
+  identifier = "search"
+  weight = 99
+  [main.params]
+    action = "search"
+    icon = "search"
+
+# -- 页脚菜单 --
+[[footer]]
+  name = "标签"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "分类"
+  pageRef = "categories"
+  weight = 20
