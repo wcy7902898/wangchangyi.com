@@ -1,5 +1,5 @@
 ---
-title: "标签"
+title: "Tags"
 description: "所有标签 · 按主题分组"
 date: 2026-06-25
 cardView: true
