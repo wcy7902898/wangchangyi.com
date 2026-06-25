@@ -15,7 +15,8 @@ mainSections = ["posts"]
 
 disableImageOptimization = false
 disableImageOptimizationMD = false
-disableTextInHeader = false
+disableTextInHeader = true
+logo = "img/logo.png"
 
 # -- 首页布局 --
 [homepage]
