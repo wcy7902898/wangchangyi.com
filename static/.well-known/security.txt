@@ -1,0 +1,7 @@
+# Security policy for wangchangyi.com
+# RFC 9116 — https://www.rfc-editor.org/rfc/rfc9116
+Contact: mailto:hi@wangchangyi.com
+Contact: https://github.com/wcy7902898/wangchangyi.com/security/advisories/new
+Expires: 2036-12-31T23:59:59z
+Preferred-Languages: zh, en
+Canonical: https://wangchangyi.com/.well-known/security.txt
